@@ -1,0 +1,5 @@
+Texto que quero colocar no arquivo
+__mensagem que quero que apareça so na branch staging
+
+tentei fazer o pull request so que não tava conseguindo, acho que era porque as branch que eu criei não vinheram da master
+seria como se não tivesse conectado ao galho principal, vou fazer uma nova e mergear com a master pra ver se da certo
