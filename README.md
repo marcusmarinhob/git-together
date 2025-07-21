@@ -1,4 +1,7 @@
 # 🤝 git-together
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&center=true&vCenter=true&width=800&lines=Ol%C3%A1!+Bem-vindo+ao++git-together!+%F0%9F%91%8B" alt="Typing SVG" />
+</p>
 
 **git-together** é um repositório colaborativo criado para alunos(as) que estão começando a aprender **Git** e **GitHub**. A ideia aqui é simples: **aprender fazendo**, praticando os comandos básicos e entendendo como funciona o fluxo de versionamento na prática.
 
