@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoriaH - Jogo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-screen" class="screen active">
+        <div class="game-container">
+            <aside class="sidebar" id="game-sidebar">
+                <div>
+                    <div class="player-info"><div class="avatar">🧑‍🔬</div><div class="name">Hugo Vieira</div><div id="player-score" class="score">0</div></div>
+                    <div class="opponent-info"><div class="avatar">🤖</div><div class="name">Felipe</div><div id="opponent-score" class="score">0</div></div>
+                    <div class="streak-info"><div>Sequência</div><div id="streak-counter" class="streak-score">🔥 0</div></div>
+                </div>
+                <div class="card-area"><div class="card-hand" id="player-deck-hand"></div></div>
+            </aside>
+            <aside id="battle-class-sidebar" class="sidebar hidden">
+                <h3>Ranking da Turma</h3>
+                <div id="student-list" class="student-list"></div>
+            </aside>
+            <main class="main-content">
+                <div id="quiz-screen">
+                    <div id="memory-board"></div>
+                </div>
+                <div id="results-screen" class="results-screen hidden">
+                    <h1 id="result-title">Fim de Jogo!</h1>
+                    <div class="score-comparison">
+                        <div class="final-score-box"><p>Sua Pontuação</p><div id="final-player-score" class="score" style="color: var(--accent-blue);">0</div></div>
+                        <div class="final-score-box"><p>Pontuação Oponente</p><div id="final-opponent-score" class="score" style="color: var(--incorrect-red);">0</div></div>
+                    </div>
+                    <p class="reward-message">+250 ✏️ Laps pela partida!</p>
+                    <a href="student-home.html" class="btn-restart">Voltar ao Menu</a>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

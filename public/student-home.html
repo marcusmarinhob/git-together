@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoriaH - Menu Aluno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-menu-screen" class="screen active">
+        <div class="app-container">
+            <header class="main-header">
+                <div class="player-profile">
+                    <div class="avatar-container"><div class="avatar">🧑‍🔬</div><div id="player-level-menu" class="player-level">14</div></div>
+                    <div class="name-level"><div class="name">Hugo Vieira</div><div class="xp-bar"><div id="xp-progress-menu" class="xp-progress"></div></div></div>
+                </div>
+                <div class="player-currencies">
+                    <div class="currency">✏️ <span>3290</span></div>
+                    <div class="currency">🧠 <span>127</span></div>
+                </div>
+            </header>
+            <div class="menu-body">
+                <div class="left-panel">
+                    <div class="panel-card">
+                        <button class="missions-button"><h4>🎯 Missões</h4></button>
+                        <div id="missions-panel">
+                            <h5>Diárias</h5>
+                            <div class="mission"><p>Vença 1 partida no Modo Versus</p><div class="mission-progress-bar"><div class="mission-progress" style="width: 0%;"></div></div><span class="reward">Recompensa: ✏️ 50 Laps</span></div>
+                            <h5 style="margin-top: 20px;">Semanais</h5>
+                            <div class="mission"><p>Vença 3 partidas sem usar cartas</p><div class="mission-progress-bar"><div class="mission-progress weekly" style="width: 33%;"></div></div><span class="reward">Recompensa: 🧠 1 Cérebro</span></div>
+                        </div>
+                    </div>
+                    <div class="panel-card">
+                        <h4>🏆 Ranking da Turma</h4>
+                        <div class="ranking-list">
+                            <div class="rank-item"><span class="rank-pos">1º</span><div class="rank-avatar">🧑‍🔬</div><div class="rank-name">Hugo Vieira</div><span class="rank-score">1250</span></div>
+                            <div class="rank-item"><span class="rank-pos">2º</span><div class="rank-avatar">🤖</div><div class="rank-name">Felipe</div><span class="rank-score">1100</span></div>
+                            <div class="rank-item"><span class="rank-pos">3º</span><div class="rank-avatar">👩‍🚀</div><div class="rank-name">Ana</div><span class="rank-score">980</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <div class="panel-card">
+                        <h4>Matérias Disponíveis</h4>
+                        <div class="subjects-list">
+                            <div class="subject-item"><span class="subject-name">Biologia</span><button class="btn-practice">Praticar</button></div>
+                        </div>
+                    </div>
+                    <div class="panel-card">
+                        <h4>Deck Atual</h4>
+                        <div id="current-deck-display" class="deck-display"></div>
+                        <a href="deck-builder.html" class="btn-practice" style="width: 100%; margin-top: 15px;">Montar Baralho</a>
+                    </div>
+                </div>
+            </div>
+            <footer class="main-footer">
+                <div id="game-modes-panel">
+                    <div class="mode-card inactive"><div class="icon">🧠</div><h3>Solo</h3></div>
+                    <div class="mode-card active"><div class="icon">⚔️</div><h3>Versus</h3></div>
+                    <div class="mode-card inactive"><div class="icon">🏆</div><h3>Battle</h3></div>
+                </div>
+                <a href="shop.html" class="action-button">🛒<span>Loja</span></a>
+                <a href="index.html" class="action-button">🚪<span>Sair</span></a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
